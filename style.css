@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+/* html {
+  background-color: greenyellow;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  background-color: blanchedalmond;
+}
+
+section {
+  display: inline-block;
+}
+
+h1,
+h2,
+p,
+span,
+div {
+  align-self: center;
+}
+
+h1 {
+  margin: 1vh 0 0 0;
+  font-size: 5rem;
+  font-style: italic;
+}
+
+.nameAndLatinName {
+  margin: 2vh 0;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 33vw;
+}
